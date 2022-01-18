@@ -24,6 +24,7 @@ import { Observable } from 'rxjs';
   // against ViewEngine where directives without selectors are not allowed.
   // @breaking-change Will be removed with switch to ivy.
   // convert to a selectorless Directive after we switch to Ivy.
+  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: 'do-not-use-abstract-dt-form-field-control',
 })
 export abstract class DtFormFieldControl<T> {
